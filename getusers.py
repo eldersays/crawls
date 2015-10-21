@@ -37,5 +37,5 @@ def reselect(former):
     after = []
     for j in range(0,total):
         if j%2 ==0:
-            after.append(j)
+            after.append(data[j])
     return after
